@@ -5,26 +5,38 @@
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ecommerce Website</title>  
+         <!-- website name- mallary the label -->
          <script src="https://kit.fontawesome.com/7e5db491fa.js" crossorigin="anonymous"></script>
 
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
          <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section id="header">
-            <a href="#"><img src="icon.png" class="logo" alt=""></a>
+        
+    <section id="header">
+            <div class="head_1">
+                 <a href="#"><img src="icon.png" class="logo" alt=""></a>
+                 <h5>Mallary</h5>
+            </div>
        
         <div>
             <ul style="list-style-type: none;" id="navbar">
                 <li><a href="index.html">Home</a></li>
-                 <!-- here now 'active' class will be shop.html-->  
-                <li><a href="shop.html">Shop</a></li>  
+                <li><a href="shop.html">Shop</a></li>
                 <li><a class="active" href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a id="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
             </ul>
-        </div></section>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        
+     </section>
 
     <section id="page-header" class="blog-header">
            <h2>#ReadMore</h2>
@@ -96,6 +108,7 @@
         </div>
 
     </section>
+    
     <section id="pagination" class="section-p1">
         <a href="#">1</a>
         <a href="#">2</a>
