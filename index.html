@@ -4,7 +4,7 @@
         <meta charset="'UTF-8">
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ecommerce Website</title>  
+        <title>Mallary - The label</title>  
          <!-- website name- mallary the label -->
          <script src="https://kit.fontawesome.com/7e5db491fa.js" crossorigin="anonymous"></script>
 
@@ -12,8 +12,12 @@
          <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section id="header">
-            <a href="#"><img src="icon.png" class="logo" alt=""></a>
+        
+    <section id="header">
+            <div class="head_1">
+                 <a href="#"><img src="icon.png" class="logo" alt=""></a>
+                 <h5>Mallary</h5>
+            </div>
        
         <div>
             <ul style="list-style-type: none;" id="navbar">
@@ -22,16 +26,25 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a id="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
             </ul>
-        </div></section>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        
+     </section>
 
     <section id="hero">
             <h4>Trade-in-offer</h4>
             <h2>Super value deals</h2>
             <h1>On all products</h1>
             <p>Save more with coupons & upto 70% off!</p>
-            <button>Shop now</button></section>
+            <button>Shop now</button>
+    </section>
 
     <section id="feature" class="section-p1">
              <div class="fe-box">
@@ -58,6 +71,7 @@
                 <img src="features/f6.png" alt="" height="130px" width="160px">
                 <h6>F24/7 Support</h6>
             </div>
+            
             
         </section>
 
@@ -361,7 +375,7 @@
         <input type="text" placeholder="Your email address">
         <button class="normal">SignUp</button>
      </div>
-   </section>
+    </section>
 
    <footer class="section-p1">
        <div class="col">
@@ -411,7 +425,7 @@
     </div>
 
     <div class="copyright"><p>© 2022 www.mallarythelabel.com. All rights reserved.</p></div>
- </footer>
+  </footer>
 
       <script src="script.js"></script>
     </body>
